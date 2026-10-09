@@ -1,0 +1,1019 @@
+{
+  "wheels": [
+    {
+      "active": 1,
+      "steerable": 1,
+      "radius": 0.364,
+      "surface_source": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          0.863012,
+          0.3525,
+          1.782089
+        ]
+      },
+      "field70": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fielda0": 1065353216,
+      "fielda4": 1065353216,
+      "offset_from_vehicle": {
+        "x": 0.863012,
+        "y": 0.3525,
+        "z": 1.782089
+      },
+      "real_time": {
+        "damper_absorb": 0.2,
+        "field04": 0.0,
+        "field08": 0.0,
+        "basis0": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "basis1": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "field54": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "field6c": 0.0,
+        "has_ground_contact": 0,
+        "contact_material_id": 854982656,
+        "is_sliding": 0,
+        "relative_rotz_axis": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "contact_body_word": 233199464,
+        "ground_contact_count": 0,
+        "field90": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_phase": 0.0,
+        "blend_value": -0.0,
+        "blend_target": -0.0
+      }
+    },
+    {
+      "active": 1,
+      "steerable": 1,
+      "radius": 0.364,
+      "surface_source": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          -0.86299,
+          0.3525,
+          1.782089
+        ]
+      },
+      "field70": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fielda0": 1065353216,
+      "fielda4": 1065353216,
+      "offset_from_vehicle": {
+        "x": -0.86299,
+        "y": 0.3525,
+        "z": 1.782089
+      },
+      "real_time": {
+        "damper_absorb": 0.2,
+        "field04": 0.0,
+        "field08": 0.0,
+        "basis0": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "basis1": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "field54": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "field6c": 0.0,
+        "has_ground_contact": 0,
+        "contact_material_id": -1125056512,
+        "is_sliding": 0,
+        "relative_rotz_axis": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "contact_body_word": 233199464,
+        "ground_contact_count": 0,
+        "field90": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_phase": 0.0,
+        "blend_value": -0.0,
+        "blend_target": -0.0
+      }
+    },
+    {
+      "active": 1,
+      "steerable": 0,
+      "radius": 0.364,
+      "surface_source": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          -0.885,
+          0.352504,
+          -1.205502
+        ]
+      },
+      "field70": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fielda0": 1065353216,
+      "fielda4": 1065353216,
+      "offset_from_vehicle": {
+        "x": -0.885,
+        "y": 0.352504,
+        "z": -1.205502
+      },
+      "real_time": {
+        "damper_absorb": 0.2,
+        "field04": 0.0,
+        "field08": 0.0,
+        "basis0": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "basis1": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "field54": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "field6c": 0.0,
+        "has_ground_contact": 0,
+        "contact_material_id": -1006764032,
+        "is_sliding": 0,
+        "relative_rotz_axis": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "contact_body_word": 233199464,
+        "ground_contact_count": 0,
+        "field90": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_phase": 0.0,
+        "blend_value": 0.0,
+        "blend_target": 0.0
+      }
+    },
+    {
+      "active": 1,
+      "steerable": 0,
+      "radius": 0.364,
+      "surface_source": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          0.885002,
+          0.352504,
+          -1.205502
+        ]
+      },
+      "field70": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fielda0": 1065353216,
+      "fielda4": 1065353216,
+      "offset_from_vehicle": {
+        "x": 0.885002,
+        "y": 0.352504,
+        "z": -1.205502
+      },
+      "real_time": {
+        "damper_absorb": 0.2,
+        "field04": 0.0,
+        "field08": 0.0,
+        "basis0": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "basis1": {
+          "m": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "field54": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "field6c": 0.0,
+        "has_ground_contact": 0,
+        "contact_material_id": 564789248,
+        "is_sliding": 0,
+        "relative_rotz_axis": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "contact_body_word": 233199464,
+        "ground_contact_count": 0,
+        "field90": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_phase": 0.0,
+        "blend_value": 0.0,
+        "blend_target": 0.0
+      }
+    }
+  ],
+  "collision_nodes": [
+    {
+      "kind": 0,
+      "wheel_index": null,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": 0.0,
+          "y": 0.471253,
+          "z": 0.219106
+        },
+        "half_extent": {
+          "x": 0.439118,
+          "y": 0.47466114,
+          "z": 1.9197191
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.998223,
+          -0.059586,
+          -0.0,
+          0.059586,
+          0.998223
+        ],
+        "t": [
+          0.0,
+          0.471253,
+          0.219106
+        ]
+      },
+      "radii": {
+        "x": 0.439118,
+        "y": 0.362,
+        "z": 1.901528
+      },
+      "geometry_type": 1,
+      "material_id": 0
+    },
+    {
+      "kind": 0,
+      "wheel_index": null,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": 0.0,
+          "y": 0.448782,
+          "z": -0.20792
+        },
+        "half_extent": {
+          "x": 0.968297,
+          "y": 0.4392685,
+          "z": 1.6970994
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.998954,
+          -0.045716,
+          -0.0,
+          0.045716,
+          0.998954
+        ],
+        "t": [
+          0.0,
+          0.448782,
+          -0.20792
+        ]
+      },
+      "radii": {
+        "x": 0.968297,
+        "y": 0.362741,
+        "z": 1.682276
+      },
+      "geometry_type": 1,
+      "material_id": 0
+    },
+    {
+      "kind": 0,
+      "wheel_index": null,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": 0.0,
+          "y": 0.652812,
+          "z": -0.89763
+        },
+        "half_extent": {
+          "x": 1.020922,
+          "y": 0.56332135,
+          "z": 1.0610228
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9989,
+          -0.046888,
+          -0.0,
+          0.046888,
+          0.9989
+        ],
+        "t": [
+          0.0,
+          0.652812,
+          -0.89763
+        ]
+      },
+      "radii": {
+        "x": 1.020922,
+        "y": 0.515218,
+        "z": 1.038007
+      },
+      "geometry_type": 1,
+      "material_id": 0
+    },
+    {
+      "kind": 0,
+      "wheel_index": null,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": -0.015532,
+          "y": 0.363252,
+          "z": 1.75357
+        },
+        "half_extent": {
+          "x": 0.905323,
+          "y": 0.283418,
+          "z": 0.384841
+        }
+      },
+      "local_iso": {
+        "m": [
+          -0.0,
+          -1.0,
+          0.0,
+          0.0,
+          -0.0,
+          -1.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        "t": [
+          -0.015532,
+          0.363252,
+          1.75357
+        ]
+      },
+      "radii": {
+        "x": 0.384841,
+        "y": 0.905323,
+        "z": 0.283418
+      },
+      "geometry_type": 1,
+      "material_id": 0
+    },
+    {
+      "kind": 1,
+      "wheel_index": 0,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": 0.863012,
+          "y": 0.15249999,
+          "z": 1.782089
+        },
+        "half_extent": {
+          "x": 0.182,
+          "y": 0.364,
+          "z": 0.364
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          0.863012,
+          0.15249999,
+          1.782089
+        ]
+      },
+      "radii": {
+        "x": 0.182,
+        "y": 0.364,
+        "z": 0.364
+      },
+      "geometry_type": 1,
+      "material_id": 9
+    },
+    {
+      "kind": 1,
+      "wheel_index": 1,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": -0.86299,
+          "y": 0.15249999,
+          "z": 1.782089
+        },
+        "half_extent": {
+          "x": 0.182,
+          "y": 0.364,
+          "z": 0.364
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          -0.86299,
+          0.15249999,
+          1.782089
+        ]
+      },
+      "radii": {
+        "x": 0.182,
+        "y": 0.364,
+        "z": 0.364
+      },
+      "geometry_type": 1,
+      "material_id": 9
+    },
+    {
+      "kind": 1,
+      "wheel_index": 3,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": 0.885002,
+          "y": 0.15250398,
+          "z": -1.205502
+        },
+        "half_extent": {
+          "x": 0.182,
+          "y": 0.364,
+          "z": 0.364
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          0.885002,
+          0.15250398,
+          -1.205502
+        ]
+      },
+      "radii": {
+        "x": 0.182,
+        "y": 0.364,
+        "z": 0.364
+      },
+      "geometry_type": 1,
+      "material_id": 9
+    },
+    {
+      "kind": 1,
+      "wheel_index": 2,
+      "flags": 125062,
+      "box_aligned": {
+        "center": {
+          "x": -0.885,
+          "y": 0.15250398,
+          "z": -1.205502
+        },
+        "half_extent": {
+          "x": 0.182,
+          "y": 0.364,
+          "z": 0.364
+        }
+      },
+      "local_iso": {
+        "m": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "t": [
+          -0.885,
+          0.15250398,
+          -1.205502
+        ]
+      },
+      "radii": {
+        "x": 0.182,
+        "y": 0.364,
+        "z": 0.364
+      },
+      "geometry_type": 1,
+      "material_id": 9
+    }
+  ],
+  "body": {
+    "mass": 1.0,
+    "inverse_inertia": {
+      "m": [
+        0.48000002,
+        0.0,
+        0.0,
+        0.0,
+        0.48000002,
+        0.0,
+        0.0,
+        0.0,
+        1.2
+      ]
+    },
+    "drag_linear": 0.03,
+    "drag_angular": 0.0,
+    "substep_len": 0.3,
+    "force_field_scale": 2.5,
+    "center_of_mass": {
+      "x": 0.000001013279,
+      "y": 0.43850198,
+      "z": 0.28829348
+    }
+  },
+  "spawn": {
+    "quaternion": [
+      0.70710677,
+      0.0,
+      0.70710677,
+      0.0
+    ],
+    "rotation": {
+      "m": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "position": {
+      "x": 171.2,
+      "y": 90.21,
+      "z": 688.0
+    },
+    "linear_velocity": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "angular_velocity": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "tail": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      7.6007465e-31
+    ]
+  },
+  "body_reference_position": {
+    "x": 0.000001013279,
+    "y": 0.43850198,
+    "z": 0.28829348
+  },
+  "ground_material_ids": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ground_materials": [
+    {
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.0,
+      "fake_contact_impulse_limit": 0.05
+    },
+    {
+      "values": [
+        0.5,
+        0.4,
+        0.05,
+        0.15
+      ],
+      "fake_contact_mask": true,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.05,
+      "fake_contact_impulse_limit": 0.2
+    },
+    {
+      "values": [
+        0.7,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "fake_contact_mask": true,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.05,
+      "fake_contact_impulse_limit": 0.2
+    },
+    {
+      "values": [
+        0.2,
+        0.4,
+        1.0,
+        0.5
+      ],
+      "fake_contact_mask": true,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.05,
+      "fake_contact_impulse_limit": 0.2
+    },
+    {
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.0,
+      "fake_contact_impulse_limit": 0.5
+    },
+    {
+      "values": [
+        0.1,
+        0.5,
+        1.0,
+        0.5
+      ],
+      "fake_contact_mask": true,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.05,
+      "fake_contact_impulse_limit": 0.2
+    },
+    {
+      "values": [
+        0.9,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.0,
+      "fake_contact_impulse_limit": 0.5
+    },
+    {
+      "values": [
+        1.0,
+        1.0,
+        0.85,
+        0.85
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.0,
+      "fake_contact_impulse_limit": 0.5
+    },
+    {
+      "values": [
+        0.2,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.0,
+      "fake_contact_impulse_limit": 0.5
+    },
+    {
+      "values": [
+        1.0,
+        0.1,
+        0.0,
+        0.0
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.0,
+      "fake_contact_impulse_limit": 0.5
+    },
+    {
+      "values": [
+        0.9,
+        0.9,
+        0.4,
+        0.25
+      ],
+      "fake_contact_mask": true,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.05,
+      "fake_contact_impulse_limit": 0.3
+    },
+    {
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.04,
+      "fake_contact_impulse_limit": 0.1
+    },
+    {
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fake_contact_mask": false,
+      "fake_contact_period_x": 32.0,
+      "fake_contact_period_z": 32.0,
+      "fake_contact_impulse_scale": 0.04,
+      "fake_contact_impulse_limit": 0.15
+    }
+  ],
+  "clamp_angular": 1,
+  "max_angular_speed": 100.0,
+  "mode": 1,
+  "tick": 2600
+}

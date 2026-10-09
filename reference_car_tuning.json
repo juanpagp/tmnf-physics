@@ -1,0 +1,621 @@
+{
+  "base": {
+    "damper_max": 0.0,
+    "damper_min": 0.7,
+    "engine_model": 5,
+    "forward_speed_limit_scale": 277.7778,
+    "engine_rpm_reverse_accel": 6000.0,
+    "engine_rpm_accel": 6000.0,
+    "engine_rpm_decel": 3000.0,
+    "engine_rpm_turbo_decel": 17000.0,
+    "engine_rpm_follow_accel": 11500.0,
+    "engine_rpm_low_accel": 10000.0,
+    "engine_rpm_high_decel": 4000.0,
+    "speed_32c": 3.0,
+    "speed_330": -2.0,
+    "speed_334": 2.0,
+    "speed_338": -3.0,
+    "suspension_model": 2,
+    "suspension_stiffness": 40.0,
+    "suspension_damping": 1.0,
+    "suspension_rest_length": 0.2,
+    "suspension_scale": 0.2
+  },
+  "aux": {
+    "steering_speed_base": 2.0,
+    "steering_speed_scale": 0.85,
+    "steering_slew_rate": 20.0,
+    "air_torque_linear": 0.4,
+    "air_torque_quadratic": 0.2,
+    "suspension_follow_rate": 5.0,
+    "air_control_window_ticks": 30000,
+    "air_reversal_threshold": 3.14,
+    "water_buoyancy": 1.0,
+    "water_entry_speed_threshold": 55.555557,
+    "water_entry_speed_minimum": 50.0,
+    "water_angular_drag_linear": 0.1,
+    "water_angular_drag_quadratic": 0.2
+  },
+  "contact": {
+    "friction_force": 1.0,
+    "extra_friction_force": 0.3,
+    "slope_adherence_min": 0.3,
+    "slope_adherence_max": 0.7,
+    "slope_secondary_min": 0.4,
+    "slope_secondary_max": 0.7,
+    "angular_y_scale": 1.0,
+    "angular_xz_scale": 0.55,
+    "damper_max": 0.0,
+    "max_angular_speed": 100.0,
+    "max_linear_speed_delta": 10000.0,
+    "body_tangent_ratio": 0.3,
+    "body_tangent_ratio_material4": 0.2,
+    "restitution_air_material4": -0.5,
+    "restitution_air": -0.5,
+    "restitution_ground": -0.8,
+    "restitution_ground_material4": -0.8,
+    "lateral_linear": 1.0,
+    "lateral_quadratic": 0.0,
+    "lateral_ground_scale": 1.0,
+    "lateral_contact_duration_ticks": 500,
+    "wheel_contact_model": 2,
+    "friction_model": 5
+  },
+  "compute": {
+    "event_c_level1_max": 50.0,
+    "grounded_drag_term": 1.0,
+    "active_contact_stop_threshold": 40.0,
+    "normal_turbo_factor": 5.0,
+    "roulette_turbo_factor": 20.0,
+    "normal_turbo_duration": 250,
+    "roulette_turbo_duration": 100,
+    "air_impulse_scale": 10.0,
+    "special_force_field_scale": 0.1,
+    "airborne_linear_drag": 0.03,
+    "grounded_force_field_scale": 3.0,
+    "airborne_force_field_scale": 2.5,
+    "normalized_force_divisor": 5.0,
+    "effect_curve_bias": -0.3,
+    "event_ab_level2_min": 50.0,
+    "event_ab_trigger": 10.0,
+    "event_c_trigger": 10.0
+  },
+  "model6": {
+    "forward_speed_limit_scale": 277.7778,
+    "reverse_speed_limit_scale": 138.61111,
+    "brake_base": 1.0,
+    "brake_speed_scale": 1.75,
+    "forward_brake_limit_sliding": 60.0,
+    "forward_brake_limit": 30.0,
+    "speed_limit_force": 10.0,
+    "vertical_force_scale": 0.0,
+    "wheel_steer_sine_limit": 30.0,
+    "steer_slowdown_scale": 0.5,
+    "wheel_torque_scale": 0.08,
+    "sliding_steer_torque_scale": 1.0,
+    "lateral_force_scale": 40.0,
+    "sliding_lateral_limit_scale": 0.35,
+    "lateral_overflow_blend": 0.018,
+    "wheel_overflow_blend": 1.0,
+    "vertical_force_divisor": 3.0,
+    "traction_loss_scale": 1.0,
+    "burnout_trigger_scale": 5.0,
+    "burnout_trigger_limit": 200.0,
+    "rollover_axis_min_length": 0.01,
+    "rollover_torque_x_scale": 0.05,
+    "rollover_torque_z_scale": 0.05,
+    "sliding_brake_scale": 0.5,
+    "braking_lateral_limit_scale": 0.2,
+    "reverse_brake_limit_sliding": 100.0,
+    "reverse_brake_limit": 50.0,
+    "burnout_speed_max": 20.833334,
+    "burnout_speed_min": 3.0,
+    "donut_lateral_force_scale": 2.0,
+    "donut_yaw_angle_scale": 6.0,
+    "donut_steer_linear": 2.0,
+    "donut_steer_quadratic": 1.0,
+    "donut_countersteer_scale": 0.5,
+    "donut_radius_exponent": 1.0,
+    "donut_radial_speed_exponent": 0.2,
+    "donut_radius_min": 20.0,
+    "donut_lateral_speed_limit": 20.833334,
+    "donut_normal_angle_limit": 0.35,
+    "donut_angle_positive_limit": 1.7453,
+    "donut_angle_negative_limit": 0.785,
+    "burnout_enter_ticks": 500,
+    "burnout_enter_accel_scale": 0.5,
+    "burnout_enter_lateral_scale": 0.01,
+    "burnout_exit_ticks": 150,
+    "burnout_exit_accel_scale": 1.0,
+    "burnout_exit_extra_accel": 0.0,
+    "material6_longitudinal_scale": -0.05,
+    "material6_gas_denominator": 0.05,
+    "material6_vertical_shape": 90.0,
+    "material6_vertical_scale": 1.0
+  },
+  "curves": {
+    "accel_from_speed": {
+      "interpolation": 1,
+      "keys": [
+        [
+          -1000.0,
+          1.0
+        ],
+        [
+          -102.0,
+          2.0
+        ],
+        [
+          -80.0,
+          6.0
+        ],
+        [
+          -35.0,
+          12.0
+        ],
+        [
+          0.0,
+          16.0
+        ],
+        [
+          101.0,
+          11.0
+        ],
+        [
+          201.0,
+          7.0
+        ],
+        [
+          401.0,
+          5.5
+        ],
+        [
+          801.0,
+          1.0
+        ]
+      ]
+    },
+    "rollover_lateral_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "max_side_friction_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          80.0
+        ],
+        [
+          100.0,
+          80.0
+        ],
+        [
+          200.0,
+          75.0
+        ],
+        [
+          300.0,
+          67.0
+        ],
+        [
+          400.0,
+          60.0
+        ],
+        [
+          500.0,
+          55.0
+        ]
+      ]
+    },
+    "lateral_contact_slowdown_from_speed": {
+      "interpolation": 1,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          12.0
+        ],
+        [
+          100.0,
+          24.0
+        ],
+        [
+          200.0,
+          48.0
+        ],
+        [
+          400.0,
+          70.0
+        ]
+      ]
+    },
+    "steer_slowdown_from_speed": {
+      "interpolation": 1,
+      "keys": [
+        [
+          -50.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          200.0,
+          0.0
+        ],
+        [
+          300.0,
+          0.0
+        ]
+      ]
+    },
+    "rollover_lateral_coef_from_angle": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.4
+        ],
+        [
+          0.8,
+          0.8
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "steer_drive_torque_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          -100.0,
+          7.0
+        ],
+        [
+          0.0,
+          16.0
+        ],
+        [
+          50.0,
+          10.4
+        ],
+        [
+          100.0,
+          8.5
+        ],
+        [
+          150.0,
+          6.8
+        ],
+        [
+          200.0,
+          5.5
+        ],
+        [
+          300.0,
+          4.25
+        ],
+        [
+          400.0,
+          4.0
+        ],
+        [
+          500.0,
+          3.75
+        ],
+        [
+          600.0,
+          3.75
+        ]
+      ]
+    },
+    "m4_steer_radius_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          10.0
+        ],
+        [
+          100.0,
+          20.0
+        ]
+      ]
+    },
+    "m4_max_friction_force_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          40.0
+        ]
+      ]
+    },
+    "m5_slipping_accel_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          10.0
+        ]
+      ]
+    },
+    "water_friction_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.2
+        ],
+        [
+          50.0,
+          1.0
+        ]
+      ]
+    },
+    "m6_damper_modulation": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.1
+        ],
+        [
+          0.6,
+          0.3
+        ],
+        [
+          0.975,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "m6_rear_gear_accel_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          -150.0,
+          0.1
+        ],
+        [
+          -100.0,
+          1.5
+        ],
+        [
+          -50.0,
+          8.0
+        ],
+        [
+          0.0,
+          30.0
+        ]
+      ]
+    },
+    "m6_rollover_lateral_from_speed_ratio": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.8
+        ],
+        [
+          10.0,
+          1.0
+        ],
+        [
+          20.0,
+          1.0
+        ],
+        [
+          30.0,
+          1.0
+        ]
+      ]
+    },
+    "m6_burnout_radius_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          10.0,
+          3.0
+        ]
+      ]
+    },
+    "m6_lateral_speed_from_burnout_radius": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          30.0
+        ],
+        [
+          10.0,
+          30.0
+        ]
+      ]
+    },
+    "m6_donut_rollover_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          10.0,
+          5.0
+        ],
+        [
+          20.0,
+          6.0
+        ]
+      ]
+    },
+    "m6_burnout_rollover_from_speed": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          1.5
+        ],
+        [
+          10.0,
+          1.2
+        ],
+        [
+          50.0,
+          0.2
+        ]
+      ]
+    },
+    "air_vertical": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "steering_angle": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          30.0
+        ],
+        [
+          100.0,
+          10.0
+        ]
+      ]
+    },
+    "effect": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          20.0,
+          1.0
+        ]
+      ]
+    },
+    "contact_decay": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          30.0,
+          0.1
+        ],
+        [
+          100.0,
+          0.3
+        ]
+      ]
+    },
+    "contact_rise": {
+      "interpolation": 0,
+      "keys": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          30.0,
+          0.01
+        ],
+        [
+          100.0,
+          0.05
+        ]
+      ]
+    }
+  },
+  "gear_ratios": [
+    400.0,
+    370.0,
+    220.0,
+    160.0,
+    110.0,
+    85.0
+  ],
+  "gear_upshift": [
+    0.0,
+    0.95,
+    0.9,
+    0.95,
+    0.95,
+    1.0
+  ],
+  "gear_downshift": [
+    0.0,
+    0.0,
+    0.5,
+    0.57,
+    0.55,
+    0.6
+  ],
+  "gear_aux": [
+    0.0,
+    0.0,
+    694.48663,
+    1005.0807,
+    1206.6179,
+    777.3873
+  ]
+}

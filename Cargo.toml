@@ -1,0 +1,17 @@
+[package]
+name = "tmnf-physics"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "TrackMania Nations Forever physics, transliterated byte-exactly from the 2.11.26 disassembly. Standalone, data-driven, deterministic."
+license = "MIT"
+publish = false
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1" }
+
+[profile.release]
+# Bit-exactness is guaranteed by Rust's FP semantics (no contraction, no
+# fast-math), not by optimization level; debug and release agree bit-for-bit.
+debug-assertions = false
